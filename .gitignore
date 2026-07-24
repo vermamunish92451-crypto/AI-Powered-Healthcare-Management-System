@@ -1,0 +1,68 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code
+.vscode/
+.history/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Machine Learning
+# ==========================
+
+# Other model formats (keeping .pkl because you're uploading it)
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports
+reports/
+
+# Power BI exports
+powerbi_export/
+
+# Generated datasets
+dataset/generated_*
+
+# Temporary files
+*.tmp
+*.temp
